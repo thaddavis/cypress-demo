@@ -9,7 +9,6 @@ describe('smoke tests', () => {
   })
 
   it('says `Less hassle, more time for you.` in section', () => {
-    
     cy.get('#getting-started').scrollIntoView()
     cy.wait(1000)
   })
